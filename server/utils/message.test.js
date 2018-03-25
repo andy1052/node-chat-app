@@ -5,9 +5,7 @@ describe('generateMessage', () => {
 	it ('Should generate the correct message object', () => {
 		var from = 'Jen';
 		var text = 'some message';
-
 		var message = generateMessage(from, text);
-		console.log(from);
 
 
 		expect(message.createdAt).toBeA('number');
